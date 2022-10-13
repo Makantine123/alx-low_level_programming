@@ -1,7 +1,6 @@
 #include <stdio.h>
 
-/** This is a function which prints without the use of printf
- * main prints a statement
+/* main prints a statement
  *
  * Return: Always 0 (Success)
  */
