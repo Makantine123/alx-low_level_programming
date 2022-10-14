@@ -13,7 +13,7 @@ int main(void)
 	{
 		for (Num2 = 0; Num2 <= 10; Num2++)
 		{
-			if (Num1 < Num2 && Num1 != Num2)
+			if ((Num1 < Num2) && (Num1 != Num2))
 			{
 				putchar('0' + Num1);
 				putchar('0' + Num2);
@@ -21,6 +21,7 @@ int main(void)
 				putchar(' ');
 			}
 		}
+		Num2 = 0;
 	}
 	putchar('\n');
 	return (0);
