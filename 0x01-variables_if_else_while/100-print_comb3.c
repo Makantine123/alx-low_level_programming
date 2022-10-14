@@ -8,15 +8,20 @@ int main(void)
 {
 	int Num1;
 	int Num2;
+	int myArr[100];
 
-	for (Num1 = 0; Num1 < 10; Num1++)
+
+	for (Num1 = 0; Num1 <= 10; Num1++)
 	{
-		for (Num2 = 0; Num2 <10; Num2++)
+		for (Num2 = 0; Num2 <= 10; Num2++)
 		{
-			putchar('0' + Num1);
-			putchar('0' + Num2);
-			putchar(',');
-			putchar(' ');
+			if (Num1 < Num2 && Num1 != Num2)
+			{
+				putchar('0' + Num1);
+				putchar('0' + Num2);
+				putchar(',');
+				putchar(' ');
+				i++;
 		}
 	}
 	putchar('\n');
