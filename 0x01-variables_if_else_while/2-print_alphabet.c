@@ -10,7 +10,9 @@ int main(void)
 	int c;
 
 	for (c = 'a'; c <= 'z'; c++)
+	{
 		alphabet = c;
 		putchar("%d\n",alphabet);
+	}
 	return (0);
 }
