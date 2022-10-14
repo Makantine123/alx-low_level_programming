@@ -6,7 +6,7 @@
  */
 int main(void)
 {
-	char sngleD;
+	int sngleD;
 
 	for (sngleD = 0; sngleD <= 9; sngleD++)
 	{
