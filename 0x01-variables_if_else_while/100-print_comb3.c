@@ -8,7 +8,7 @@ int main(void)
 {
 	char Num1;
 	char Num2;
-	char set[];
+	char setf;
 	int i;
 	i = 0;
 
@@ -16,8 +16,8 @@ int main(void)
 	{
 		for (Num2 = 0; Num2 <10; Num2++)
 		{
-			set[i] = Num1 + Num2
-			printf("%d",set[i])
+			setf = Num1 + Num2;
+			putchar(setf);
 		}
 	}
 	return (0);
