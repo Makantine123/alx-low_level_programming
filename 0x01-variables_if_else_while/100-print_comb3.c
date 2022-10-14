@@ -9,8 +9,6 @@ int main(void)
 	char Num1;
 	char Num2;
 	char setf;
-	int i;
-	i = 0;
 
 	for (Num1 = 0; Num1 < 10; Num1++)
 	{
