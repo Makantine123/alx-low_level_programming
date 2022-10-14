@@ -1,6 +1,6 @@
 #include <stdlib.h>
 #include <time.h>
-/* more hearders goes there*/
+#include <stdio.h>
 
 /**
  * main - Entry point
