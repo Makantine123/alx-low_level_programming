@@ -8,7 +8,6 @@ int main(void)
 {
 	int Num1;
 	int Num2;
-	int setf;
 
 	for (Num1 = 0; Num1 < 10; Num1++)
 	{
