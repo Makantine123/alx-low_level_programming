@@ -19,6 +19,7 @@ int main(void)
 				putchar('0' + Num2);
 				putchar(',');
 				putchar(' ');
+			}
 		}
 	}
 	putchar('\n');
