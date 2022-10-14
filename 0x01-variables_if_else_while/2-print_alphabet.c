@@ -9,10 +9,10 @@ int main(void)
 	char alphabet;
 	int c;
 
-	for (c = 'a'; c <= 'z'; c++)
+	for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
 	{
-		alphabet = c;
-		putchar("%d\n",alphabet);
+		putchar(alphabet);
+		puchar('\n');
 	}
 	return (0);
 }
