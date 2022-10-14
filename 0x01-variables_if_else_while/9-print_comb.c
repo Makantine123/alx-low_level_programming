@@ -11,7 +11,10 @@ int main(void)
 	for (sngleD = 0; sngleD <= 9; sngleD++)
 	{
 		putchar('0' + sngleD);
-		putchar(',');
+		if (sngleD < 9)
+		{
+			putchar(',');
+		}
 		putchar(' ');
 	}
 	putchar('\n');
