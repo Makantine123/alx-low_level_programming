@@ -8,8 +8,6 @@ int main(void)
 {
 	int Num1;
 	int Num2;
-	int myArr[100];
-
 
 	for (Num1 = 0; Num1 <= 10; Num1++)
 	{
@@ -21,7 +19,6 @@ int main(void)
 				putchar('0' + Num2);
 				putchar(',');
 				putchar(' ');
-				i++;
 		}
 	}
 	putchar('\n');
