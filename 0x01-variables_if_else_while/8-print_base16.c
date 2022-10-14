@@ -14,7 +14,7 @@ int main(void)
 	}
 	for (base16 = 'a'; base16 <= 'f'; base16++)
 	{
-		puchar(base16);
+		putchar(base16);
 	}
 	putchar('\n');
 	return (0);
