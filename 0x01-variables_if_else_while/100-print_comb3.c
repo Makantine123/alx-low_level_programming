@@ -6,17 +6,20 @@
  */
 int main(void)
 {
-	char Num1;
-	char Num2;
-	char setf;
+	int Num1;
+	int Num2;
+	int setf;
 
 	for (Num1 = 0; Num1 < 10; Num1++)
 	{
 		for (Num2 = 0; Num2 <10; Num2++)
 		{
-			setf = Num1 + Num2;
-			putchar(setf);
+			putchar('0' + Num1);
+			putchar('0' + Num2);
+			putchar(',');
+			putchar(' ');
 		}
 	}
+	putchar('\n');
 	return (0);
 }
