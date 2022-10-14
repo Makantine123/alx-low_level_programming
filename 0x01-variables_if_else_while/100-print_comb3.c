@@ -17,7 +17,9 @@ int main(void)
 			{
 				putchar('0' + Num1);
 				putchar('0' + Num2);
-				if !((Num1 == 8) && (Num2 == 9))
+				if (Num1 = 8 && Num2 = 9)
+				{
+				} else
 				{
 					putchar(',');
 					putchar(' ');
