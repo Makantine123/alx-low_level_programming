@@ -17,8 +17,11 @@ int main(void)
 			{
 				putchar('0' + Num1);
 				putchar('0' + Num2);
-				putchar(',');
-				putchar(' ');
+				if ((Num1 != 8) && (Num2 != 9))
+				{
+					putchar(',');
+					putchar(' ');
+				}
 			}
 		}
 		Num2 = 0;
