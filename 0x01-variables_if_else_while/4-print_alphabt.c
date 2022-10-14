@@ -15,5 +15,5 @@ int main(void)
 			putchar(alphabet);
 		}
 	}
-	return (0)
+	return (0);
 }
