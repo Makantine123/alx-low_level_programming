@@ -14,8 +14,8 @@ int main(void)
 		if (sngleD < 9)
 		{
 			putchar(',');
+			putchar(' ');
 		}
-		putchar(' ');
 	}
 	putchar('\n');
 	return (0);
