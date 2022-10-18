@@ -7,17 +7,4 @@
  * On error: -1 is returned, and errno is set appropiately
  */
 int _putchar(char c)
-{
-    return(write(1, &c , 1));
-}
-
 void print_alphabet(void)
-{
-    char c;
-
-    for ( c = 'a'; c <= 'z'; c++ )
-    {
-        _putchar(c);
-    }
-    _putchar('\n');
-}
