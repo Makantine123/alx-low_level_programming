@@ -5,16 +5,13 @@
  * 
  * Return: Always 0 (Success)
  */
-int main(void)
+void print_alphabet(void)
 {
-    void print_alphabet(void)
-    {
-        int char;
+    int char;
 
-        for ( char = 'a'; char <= 'z'; char++ )
-        {
-            printf("%d",char);
-        }
+    for ( char = 'a'; char <= 'z'; char++ )
+    {
+        _putchar(char);
     }
-    return (0);
+return (0);
 }
