@@ -10,6 +10,6 @@ if (i < 0)
 {
 i = i * -1;
 }
-_putchar((i % 10) + "0");
+_putchar('0' + (i % 10));
 return (i % 10);
 }
