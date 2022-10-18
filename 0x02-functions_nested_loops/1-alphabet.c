@@ -1,4 +1,4 @@
-#include <main.h>
+#include "main.h"
 /**
  * main - Prints letter in small case and then new line
  * 
