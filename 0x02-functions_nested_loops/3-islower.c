@@ -1,16 +1,16 @@
 #include "main.h"
 /**
- * print_alphabet_x10 - Prints letter in small case 10x and then new line
+ * _islower - Returns 1 if c is lowercase and 0 if not
  * Return: Always 0 (Success)
  */
 int _islower(int c)
 {
 if (c >= 'a' && c <= 'z')
 {
-return (0);
+return (1);
 }
 else
 {
-return (1);
+return (0);
 }
 }
