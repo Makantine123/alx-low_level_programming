@@ -2,16 +2,16 @@
 /**
  * _abs - Checks if n is greater than 0, equal to zero, less than zero
  * Return: Returns the absolute value of a number
- * @int: Interger
+ * @i: Interger
  */
-int _abs(int)
+int _abs(int i)
 {
-if (int < 0)
+if (i < 0)
 {
-_putchar(-int);
+_putchar(-i);
 }
 else
 {
-_putchar(int);
+_putchar(i);
 }
 }
