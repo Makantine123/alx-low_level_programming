@@ -8,10 +8,10 @@ int _abs(int i)
 {
 if (i < 0)
 {
-return (_putchar(-i));
+return (_putchar(-i + '0'));
 }
 else
 {
-return (_putchar(i));
+return (_putchar(i + '0'));
 }
 }
