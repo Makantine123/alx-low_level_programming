@@ -12,6 +12,6 @@ return (_putchar(-i + '0'));
 }
 else
 {
-return (_putchar(i + '0'));
+return (_putchar(i));
 }
 }
