@@ -15,8 +15,8 @@ for (i = 0; i < 10; i++)
         if (j != 9)
         {
         _putchar(',');
-        _putchar(' ');
-        _putchar(' ');
+        _putchar(' '+'0');
+        _putchar(' '+'0');
         }
     }
     _putchar('\n');
