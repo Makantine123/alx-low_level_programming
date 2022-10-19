@@ -18,7 +18,7 @@ int main(void)
         _nxtNum = _1stNum + _2ndNum;
         _1stNum = _2ndNum;
         _2ndNum = _nxtNum;
-        printf("%d", _nxtNum);
+        printf("%ld", _nxtNum);
         if (i < 50)
         {
         printf(", ");
