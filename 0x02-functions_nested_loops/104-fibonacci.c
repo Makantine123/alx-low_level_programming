@@ -6,9 +6,9 @@
 int main(void)
 {
 unsigned int i;
-unsigned long _1stNum;
-unsigned long _2ndNum;
-unsigned long _nxtNum;
+unsigned int _1stNum;
+unsigned int _2ndNum;
+unsigned int _nxtNum;
 _1stNum = 0;
 _2ndNum = 1;
 for (i = 0; i < 98; i++)
@@ -19,7 +19,7 @@ _2ndNum = _nxtNum;
 printf("%u", _nxtNum);
 if (i < 96)
 {
-printf(", ");
+    printf("%u", _nxtNum);
 }
 }
 printf("\n");
