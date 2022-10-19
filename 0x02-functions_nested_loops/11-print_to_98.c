@@ -10,7 +10,7 @@ int i;
 i = n;
 if (n < 98)
 {
-for (i; i <= 98;i++)
+for (i = n; i <= 98;i++)
 {
 if (i != 98)
 {
@@ -27,7 +27,7 @@ _putchar(i);
 }
 else if (n > 98)
 {
-for (i; i >= 98; i--)
+for (i =n; i >= 98; i--)
 {
 if (i != 98)
 {
