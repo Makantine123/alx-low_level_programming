@@ -17,6 +17,10 @@ _nxtNum = _1stNum + _2ndNum;
 _1stNum = _2ndNum;
 _2ndNum = _nxtNum;
 printf("%u", _nxtNum);
+if (i < 96)
+{
+printf(", ");
+}
 }
 printf("\n");
 return (0);
