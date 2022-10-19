@@ -9,7 +9,7 @@ int main(void)
     int _1stNum;
     int _2ndNum;
     int _nxtNum;
-    for (i = 0; i <= 50; i++)
+    for (i = 1; i <= 50; i++)
     {
         if (i <= 1)
         {
