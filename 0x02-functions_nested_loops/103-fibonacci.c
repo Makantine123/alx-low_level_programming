@@ -5,7 +5,7 @@
  */
 int main(void)
 {
-int i;
+unsigned long i;
 unsigned long evenSum;
 unsigned long _1stNum;
 unsigned long _2ndNum;
