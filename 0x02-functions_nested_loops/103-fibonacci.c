@@ -12,18 +12,18 @@ unsigned long _2ndNum;
 unsigned long _nxtNum;
 _1stNum = 0;
 _2ndNum = 1;
-while (i < 4000000)
+evenSum = 0;
+for (i = 0; i < 50; i++)
 {
 _nxtNum = _1stNum + _2ndNum;
 _1stNum = _2ndNum;
 _2ndNum = _nxtNum;
-if (_nxtNum % 2 == 0)
+if (_nxtNum % 2 == 0 && _nxtNum < 4000000)
 {
 evenSum += _nxtNum;
 }
-i++;
 }
-printf("%ld", evenSum);
+printf("%lu", evenSum);
 printf("\n");
 return (0);
 }
