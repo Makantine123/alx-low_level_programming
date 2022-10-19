@@ -39,7 +39,7 @@ else if (res < 10 && j != 0)
 _putchar(' ');
 _putchar((res % 10) + '0');
 }
-else
+else if (res == 0)
 {
 _putchar((res % 10) + '0');
 }
