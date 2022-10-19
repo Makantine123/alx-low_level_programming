@@ -27,9 +27,10 @@ for (i = 0; i < 10; i++)
             _putchar((res / 10) + '0');
             _putchar((res % 10) + '0');
         }
-        if (res < 10)
+        if (res < 10 && j != 10)
         {
         _putchar(',');
+        _putchar(' ');
         _putchar(' ');
         _putchar(' ');
         }
