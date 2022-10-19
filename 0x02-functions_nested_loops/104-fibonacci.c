@@ -19,7 +19,7 @@ _2ndNum = _nxtNum;
 printf("%u", _nxtNum);
 if (i < 96)
 {
-    printf("%u", _nxtNum);
+printf("%u", _nxtNum);
 }
 }
 printf("\n");
