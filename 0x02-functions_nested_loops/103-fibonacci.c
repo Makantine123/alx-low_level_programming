@@ -21,6 +21,7 @@ if (_nxtNum % 2 == 0)
 {
 evenSum += _nxtNum;
 }
+i++;
 }
 printf("%ld", evenSum);
 printf("\n");
