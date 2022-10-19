@@ -16,6 +16,7 @@ for (i = 0; i < 10; i++)
         {
         _putchar(',');
         _putchar(' ');
+        _putchar(' ');
         }
     }
     _putchar('\n');
