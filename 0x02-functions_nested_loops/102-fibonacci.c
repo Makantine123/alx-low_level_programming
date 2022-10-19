@@ -17,9 +17,9 @@ int main(void)
         }
         else
         {
-            _nxtNum = _1stNum + _2ndNum;
-            _1stNum = _2ndNum;
             _2ndNum = _nxtNum;
+            _1stNum = _2ndNum;
+            _nxtNum = _1stNum + _2ndNum; 
         }
         printf("%d", _nxtNum);
         if (i < 50)
