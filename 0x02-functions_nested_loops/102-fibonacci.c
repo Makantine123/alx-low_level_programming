@@ -6,9 +6,9 @@
 int main(void)
 {
     int i;
-    int _1stNum;
-    int _2ndNum;
-    int _nxtNum;
+    unsigned long _1stNum;
+    unsigned long _2ndNum;
+    unsigned long _nxtNum;
 
     _1stNum = 0;
     _2ndNum = 1;
