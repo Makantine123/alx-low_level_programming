@@ -9,23 +9,20 @@ int main(void)
     int _1stNum;
     int _2ndNum;
     int _nxtNum;
+
+    _1stNum = 0;
+    _2ndNum = 1;
+
     for (i = 1; i <= 50; i++)
     {
-        if (i <= 1)
-        {
-            _nxtNum = i; 
-        }
-        else
-        {
-            _2ndNum = _nxtNum;
-            _1stNum = _2ndNum;
-            _nxtNum = _1stNum + _2ndNum; 
-        }
-        printf("%d", _nxtNum);
-        if (i < 50)
-        {
-        printf(", ");
-        }
+        _nxtNum = _1stNum + _2ndNum
+        _1stNum = _2ndNum;
+        _2ndNum = _nxtNum;
+    }
+    printf("%d", _nxtNum);
+    if (i < 50)
+    {
+    printf(", ");
     }
     return (0);
 }
