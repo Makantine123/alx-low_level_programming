@@ -26,9 +26,9 @@ if (res >= 100)
 {
 _putchar(',');
 _putchar(' ');
-_putchar((res % 100) + '0');
+_putchar((res % 10) + '0');
 }
-if (res >= 10)
+if (res >= 10 && res < 100)
 {
 _putchar((res / 10) + '0');
 _putchar((res % 10) + '0');
