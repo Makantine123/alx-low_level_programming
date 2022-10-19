@@ -6,13 +6,11 @@
 int main(void)
 {
 unsigned int i;
-unsigned int evenSum;
 unsigned int _1stNum;
 unsigned int _2ndNum;
 unsigned int _nxtNum;
 _1stNum = 0;
 _2ndNum = 1;
-evenSum = 0;
 for (i = 0; i < 98; i++)
 {
 _nxtNum = _1stNum + _2ndNum;
