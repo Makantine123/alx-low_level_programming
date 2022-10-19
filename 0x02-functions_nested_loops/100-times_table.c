@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_alphabet - Prints letter in small case and then new line
+ * print_times_table - Prints letter in small case and then new line
  * Return: Always 0 (Success)
  * @n: Integer to pass to create times table
  */
