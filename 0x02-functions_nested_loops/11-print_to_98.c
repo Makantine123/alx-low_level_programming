@@ -20,7 +20,7 @@ _putchar(' ');
 }
 else
 {
-_putchar(i);
+_putchar(i + '0');
 }
 }
 
@@ -37,7 +37,7 @@ _putchar(' ');
 }
 else
 {
-_putchar(i);
+_putchar(i + '0');
 }
 }
 }
