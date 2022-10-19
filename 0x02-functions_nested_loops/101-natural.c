@@ -1,4 +1,4 @@
-#include "main.h"
+#include "stdio.h"
 /**
  * main - Prints the sum of all the multiples of 3 & 5 below 1024(excluded)
  * Return: Always 0 (Success)
@@ -15,6 +15,6 @@ if (i % 3 == 0 || i % 5 ==0)
 res += i;
 }
 }
-_putchar('0' + res);
+printf("%d",res);
 return (0);
 }
