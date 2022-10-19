@@ -15,7 +15,7 @@ int main(void)
 
     for (i = 1; i <= 50; i++)
     {
-        _nxtNum = _1stNum + _2ndNum
+        _nxtNum = _1stNum + _2ndNum;
         _1stNum = _2ndNum;
         _2ndNum = _nxtNum;
     }
