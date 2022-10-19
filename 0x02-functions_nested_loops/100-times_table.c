@@ -16,14 +16,16 @@ for (i = 0; i <= n; i++)
 for (j = 0; j <= n; j++)
 {
 res = i * j;
-if (j != 0)
+if (j != 0 && res < 100)
 {
 _putchar(',');
 _putchar(' ');
-if (res < 100)
-{
 _putchar(' ');
 }
+if (res >= 100)
+{
+_putchar(',');
+_putchar(' ');
 }
 if (res >= 10)
 {
