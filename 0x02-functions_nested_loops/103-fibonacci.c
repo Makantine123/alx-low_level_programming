@@ -1,6 +1,6 @@
 #include "stdio.h"
 /**
- * main - Prints the sum of all even held numbers in fibonacci series whose values do not exceed 4 000 000
+ * main - Prints the sum of all even held numbers in fibonacci series
  * Return: Always 0 (Success)
  */
 int main(void)
