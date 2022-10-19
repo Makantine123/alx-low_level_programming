@@ -19,6 +19,7 @@ if (j != 0)
 {
 _putchar(',');
 _putchar(' ');
+_putchar(' ');
 }
 if (res >= 10)
 {
