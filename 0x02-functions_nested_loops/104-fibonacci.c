@@ -5,10 +5,10 @@
  */
 int main(void)
 {
-unsigned int i;
-unsigned int _1stNum;
-unsigned int _2ndNum;
-unsigned int _nxtNum;
+unsigned long int i;
+unsigned long int _1stNum;
+unsigned long int _2ndNum;
+unsigned long int _nxtNum;
 _1stNum = 0;
 _2ndNum = 1;
 for (i = 0; i < 98; i++)
