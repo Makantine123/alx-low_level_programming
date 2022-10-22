@@ -6,17 +6,12 @@
  */
 int _isupper(int c)
 {
-	char uCase;
-
-	for (uCase = 'A'; uCase <= 'Z'; uCase++)
+	if (c>= 65 && c<= 90)
 	{
-		if (c == uCase)
-		{
-			printif("%d: 1", uCase);
-			return (1);
-		}
+		return (1);
 	}
-	printif("%d: 0", uCase);
-	return (0);
+	else
+	{
+		return (0);
+	}
 }
-
