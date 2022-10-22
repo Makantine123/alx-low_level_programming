@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * _isdigit - Returns 1 if c is digit and 0 otherwise
- * Returns: Always 1 or 0
+ * Return: Always 1 or 0
  * @c: Is a digit
  */
 int _isdigit(int c)
