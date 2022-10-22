@@ -12,7 +12,7 @@ void print_traingle(int size)
 	{
 		for (j = 1; j <= size; j++)
 		{
-			if (size - i = j)
+			if (size - i <= j)
 			{
 				printf("#");
 			}
