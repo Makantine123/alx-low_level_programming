@@ -15,15 +15,15 @@ void print_traingle(int size)
 		{
 			if (size - i <= j)
 			{
-				printf("#");
+				_putchar("#");
 			}
 			else
 			{
-				printf(" ");
+				_putchar(" ");
 			}
 		}
-		printf("\n");
+		_putchar("\n");
 	}
-	printf("\n");
+	_putchar("\n");
 	return (0);
 }
