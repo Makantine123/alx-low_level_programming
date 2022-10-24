@@ -6,4 +6,4 @@ void swap_int(int *a, int *b);
 
 int _strlen(char *s);
 
-int _putchar(int);
+int _putchar(char c);
