@@ -15,6 +15,9 @@ int main(void)
         SecondN = 2;
         i = 3;
 
+        printf("%d, ", firstN);
+        printf("%d ,", SecondN);
+
         while (i <= 98)
         {
                 numTotal = firstN + SecondN;
