@@ -9,13 +9,17 @@ int main(void)
         int firstN;
         int SecondN;
         int i;
+        int k;
+        int j;
         unsigned long N;
         unsigned long j;
+        int arr[100];
 
         numTotal = 0;
         firstN = 1;
         SecondN = 2;
         i = 3;
+        k = 0;
 
         printf("%d, ", firstN);
         printf("%d ,", SecondN);
@@ -28,12 +32,15 @@ int main(void)
                 while (N != 0)
                 {
                         j = N % 10;
-                        if (j == 0)
-                        {
-                                break;
-                        }
-                        printf("%lu", j);
+                        arr[k] = j;
                         N = N / 10;
+                        k++;
+                }
+
+                k = k -1;
+                while(k--)
+                {
+                        printf("%d", arr[k]);
                 }
 
                 if (i < 98)
