@@ -24,11 +24,12 @@ int main(void)
         {
                 numTotal = firstN + SecondN;
                 N = numTotal;
+                j = N
                 while (j != 0)
                 {
-                        j = N % 10;
+                        j = N / 10;
                         printf("%d", j);
-                        N = N / 10;
+                        N = N % 10;
                 }
 
                 if (i < 98)
