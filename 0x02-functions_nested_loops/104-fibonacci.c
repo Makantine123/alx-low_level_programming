@@ -9,6 +9,7 @@ int main(void)
         int firstN;
         int SecondN;
         int i;
+        int j;
 
         numTotal = 0;
         firstN = 1;
@@ -21,7 +22,14 @@ int main(void)
         while (i <= 98)
         {
                 numTotal = firstN + SecondN;
-                printf("%lu", numTotal);
+                j = numTotal;
+                while (j != 0)
+                {
+                        j = j % 10;
+                        printf("%lu", j);
+                        j = j / 10;
+                }
+
                 if (i < 98)
                 {
                         printf(", ");
