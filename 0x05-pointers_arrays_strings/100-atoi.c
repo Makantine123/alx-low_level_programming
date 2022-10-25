@@ -7,14 +7,14 @@
 int _atoi(char *s)
 {
 	int sign;
-	int number;
+	long long number;
 	int i;
 	short j;
 
 	sign = 1;
 	number =  0;
 	i = 0;
-	j =0;
+	j = 0;
 
 	while (s[i] != '\0')
 	{
