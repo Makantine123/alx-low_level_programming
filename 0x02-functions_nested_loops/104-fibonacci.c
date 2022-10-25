@@ -27,7 +27,7 @@ int main(void)
                         printf(", ");
                 }
                 firstN = SecondN;
-                SecondN = i;
+                SecondN = numTotal;
                 i++;
         }
         return (0);
