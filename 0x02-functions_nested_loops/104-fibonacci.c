@@ -25,7 +25,7 @@ int main(void)
                 numTotal = firstN + SecondN;
                 N = numTotal;
                 j = N;
-                while (j - 10 != 0)
+                while (j != 0)
                 {
                         j = N % 10;
                         printf("%lu", j);
