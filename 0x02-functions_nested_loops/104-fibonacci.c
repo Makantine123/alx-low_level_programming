@@ -23,13 +23,13 @@ int main(void)
         {
                 numTotal = firstN + SecondN;
                 j = numTotal;
-                while (j != 0)
+                /* while (j != 0)
                 {
                         j = j % 10;
                         printf("%lu", j);
                         j = j / 10;
                 }
-
+ */
                 if (i < 98)
                 {
                         printf(", ");
