@@ -10,7 +10,7 @@ int main(void)
         int SecondN;
         int i;
         unsigned long N;
-        unsigned j;
+        unsigned long j;
 
         numTotal = 0;
         firstN = 1;
