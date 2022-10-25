@@ -9,7 +9,7 @@ int _atoi(char *s)
 	int sign;
 	int number;
 	int i;
-	bool j;
+	short j;
 
 	sign = 1;
 	number =  0;
