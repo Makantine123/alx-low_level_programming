@@ -25,10 +25,13 @@ int main(void)
                 numTotal = firstN + SecondN;
                 N = numTotal;
                 j = N;
-                while (j != 0)
+                while (N != 0)
                 {
                         j = N % 10;
-                        j = j - 10;
+                        IF (j == 0)
+                        {
+                                break;
+                        }
                         printf("%lu", j);
                         N = N / 10;
                 }
