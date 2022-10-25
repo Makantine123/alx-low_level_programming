@@ -27,4 +27,5 @@ int main(void)
                 SecondN = i;
                 i++;
         }
+        return (0);
 }
