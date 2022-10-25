@@ -28,7 +28,7 @@ int main(void)
                 while (N != 0)
                 {
                         j = N % 10;
-                        IF (j == 0)
+                        if (j == 0)
                         {
                                 break;
                         }
