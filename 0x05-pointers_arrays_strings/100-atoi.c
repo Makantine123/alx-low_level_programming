@@ -9,10 +9,12 @@ int _atoi(char *s)
 	int sign;
 	int number;
 	int i;
+	bool j;
 
 	sign = 1;
 	number =  0;
 	i = 0;
+	j =0;
 
 	if (s[i] == '-')
 	{
@@ -22,11 +24,16 @@ int _atoi(char *s)
 
 	while (s[i] != '\0')
 	{
+		if (s[i] == '-')
+		{
+			sign *= -1;
+		}
 		if (s[i] >= '0' && s[i] <= '9')
 		{
 			number = number * 10 + s[i] - '0';
+			j = 1;
 		}
-		else
+		else if (j == 1)
 		{
 			break;
 		}
