@@ -27,7 +27,7 @@ int main(void)
                 while (j != 0)
                 {
                         j = N % 10;
-                        printf("%lu", j);
+                        printf("%d", j);
                         N = N / 10;
                 }
 
