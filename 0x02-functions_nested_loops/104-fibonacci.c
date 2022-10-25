@@ -29,7 +29,7 @@ int main(void)
                 {
                         j = N % 10;
                         printf("%lu", j);
-                        N = (N / 10) - (N % 10);
+                        N = N / 10;
                 }
 
                 if (i < 98)
