@@ -10,7 +10,6 @@ int main(void)
         int SecondN;
         int i;
         int k;
-        int j;
         unsigned long N;
         unsigned long j;
         int arr[100];
