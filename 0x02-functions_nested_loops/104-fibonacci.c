@@ -9,7 +9,7 @@ int main(void)
         int firstN;
         int SecondN;
         int i;
-        int j;
+        unsigned long j;
 
         numTotal = 0;
         firstN = 1;
