@@ -24,7 +24,7 @@ int main(void)
         {
                 numTotal = firstN + SecondN;
                 N = numTotal;
-                j = N
+                j = N;
                 while (j != 0)
                 {
                         j = N / 10;
