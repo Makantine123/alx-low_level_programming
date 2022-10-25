@@ -10,7 +10,7 @@ int main(void)
         int SecondN;
         int i;
         unsigned long N;
-        int j;
+        unsigned j;
 
         numTotal = 0;
         firstN = 1;
@@ -28,7 +28,7 @@ int main(void)
                 while (j != 0)
                 {
                         j = N / 10;
-                        printf("%d", j);
+                        printf("%lu", j);
                         N = N % 10;
                 }
 
