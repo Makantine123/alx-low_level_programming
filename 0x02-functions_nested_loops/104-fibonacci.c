@@ -5,23 +5,26 @@
  */
 int main(void)
 {
-unsigned long int i;
-unsigned long int _1stNum;
-unsigned long int _2ndNum;
-unsigned long int _nxtNum;
-_1stNum = 0;
-_2ndNum = 1;
-for (i = 0; i < 98; i++)
-{
-_nxtNum = _1stNum + _2ndNum;
-_1stNum = _2ndNum;
-_2ndNum = _nxtNum;
-printf("%u", _nxtNum);
-if (i < 96)
-{
-printf(", ");
-}
-}
-printf("\n");
-return (0);
+        unsigned long numTotal;
+        int firstN;
+        int SecondN;
+        int i;
+
+        numTotal = 0;
+        firstN = 1;
+        SecondN = 2;
+        i = 3;
+
+        while (i <= 98)
+        {
+                numTotal = firstN + SecondN;
+                printf("%ul", numTotal);
+                if (i < 98)
+                {
+                        printf(", ");
+                }
+                firstN = SecondN;
+                SecondN = i;
+                i++;
+        }
 }
