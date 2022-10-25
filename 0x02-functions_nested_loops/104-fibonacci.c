@@ -18,7 +18,7 @@ int main(void)
         while (i <= 98)
         {
                 numTotal = firstN + SecondN;
-                printf("%ul", numTotal);
+                printf("%lu", numTotal);
                 if (i < 98)
                 {
                         printf(", ");
