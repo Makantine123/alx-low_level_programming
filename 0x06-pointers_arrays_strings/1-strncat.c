@@ -27,12 +27,12 @@ char *_strncat(char *dest, char *src, int n)
 		if (n > 0)
 		{
 			dest[i] = src[j];
-			n--;
 		}
 		if (n <= 0)
 		{
 			break;
 		}
+		n--;
 	}
 	if (k > 0)
 	{
