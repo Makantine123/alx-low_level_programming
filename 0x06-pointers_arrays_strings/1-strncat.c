@@ -13,25 +13,29 @@ char *_strncat(char *dest, char *src, int n)
 	 * Compares it to n
 	 */
 
-	int lenDest, lenSrc, i, j, k;
-	
-	for (i = 0; dest[i] != '\0'; i++)
+	int i, j, k;
 
-	k =0;
+	k = n;
 
-	while (src[k] != '\0' && n > 0)
+	for (i = 0; dest[i] != '\0'; ++i)
 	{
-		dest[i] = src[k];
-		n--;
-		k++;
 	}
-	if (n > 0)
+
+	for (j = 0; src[j] != '\0'; ++j, ++i)
 	{
-		return (dest);
+		if (n > 0)
+		{
+			dest[i] = src[j];
+			n--;
+		}
+		if (n <= 0)
+		{
+			break;
+		}
 	}
-	else
+	if (k > 0)
 	{
-		dest[k] = '\0';
-		return (dest);
+	dest[i] = '\0';
 	}
+	return (dest);
 }
