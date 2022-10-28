@@ -26,5 +26,3 @@ str[i] = s1[k];
 }
 return (str);
 }
-Footer
-
