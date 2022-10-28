@@ -1,26 +1,6 @@
 #include "main.h"
 
 /**
- *_strlen - returns the length of a string
- *@str:a string of length to be returned
- *Return: returns the length of a string
- */
-int _strlen(char *str)
-{
-int length = 0;
-
-while (*str)
-{
-str++;
-length++;
-}
-
-return (length);
-
-}
-
-
-/**
  *_strncat - concatinates two strings
  *@dest:destination pointer
  *@src:pointer to a string
@@ -29,25 +9,29 @@ return (length);
  */
 char *_strncat(char *dest, char *src, int n)
 {
-char *cat = dest + _strlen(dest);
-int length;
+	/* Below code block finds the length of *dest & *src  and
+	 * Compares it to n
+	 */
 
-if (n > _strlen(src) + _strlen(dest))
-length =  _strlen(dest) + _strlen(src);
-else
-length = _strlen(dest) + n;
+	int lenDest, lenSrc, i, j, k;
+	
+	for (i = 0; dest[i] != '\0'; i++)
 
-while (*src && n > 0)
-{
-*cat += *src;
-src++;
-cat++;
-n--;
-}
-if (n > 0)
-*cat += '\0';
-cat -= (length);
-*dest = *cat;
+	k =0;
 
-return (cat);
+	while (src[k] != '\0' && n > 0)
+	{
+		dest[i] = src[k];
+		n--;
+		k++;
+	}
+	if (n > 0)
+	{
+		return (dest);
+	}
+	else
+	{
+		dest[k] = '\0';
+		return (dest);
+	}
 }
