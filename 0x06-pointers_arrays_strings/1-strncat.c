@@ -9,8 +9,9 @@
  */
 char *_strncat(char *dest, char *src, int n)
 {
-	/* Below code block finds the length of *dest & *src  and
-	 * Compares it to n
+	/**
+	 *Below code block finds the length of *dest & *src  and
+	 *Compares it to n
 	 */
 
 	int i, j, k;
