@@ -31,12 +31,8 @@ char *_strstr(char *haystack, char *needle)
 		}
 		if (found)
 		{
-			break;
+			return (&haystack[i]);
 		}
-	}
-	if (found)
-	{
-		return (&haystack[i]);
 	}
 	return (NULL);
 }
