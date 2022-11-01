@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include <stdbool.h>
 /**
  * _strstr - Function locates locates the first occurrence of
  * the substring needle in the string haystack
