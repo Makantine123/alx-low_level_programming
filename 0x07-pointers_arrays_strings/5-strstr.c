@@ -1,5 +1,5 @@
 #include "main.h"
-#include <stdbool.h>
+
 /**
  * _strstr - Function locates locates the first occurrence of
  * the substring needle in the string haystack
@@ -11,9 +11,6 @@
 char *_strstr(char *haystack, char *needle)
 {
 	int i, j;
-	bool found;
-
-	found = false;
 
 	for (i = 0; haystack[i] != '\0'; i++)
 	{
