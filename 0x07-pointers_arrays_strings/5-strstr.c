@@ -10,9 +10,10 @@
  */
 char *_strstr(char *haystack, char *needle)
 {
-	int i, j, found;
+	int i, j;
+	bool found;
 
-	found = 0;
+	found = false;
 
 	for (i = 0; haystack[i] != '\0'; i++)
 	{
@@ -20,21 +21,20 @@ char *_strstr(char *haystack, char *needle)
 		{
 			if (needle[j] == haystack[j + i])
 			{
-				found = 1;
+				found = true;
 			}
 			else
 			{
-				found = 0;
+				found = false;
 				break;
 			}
 		}
-		if (found ==  1)
+		if (found)
 		{
 			break;
 		}
-		found = 0;
 	}
-	if (found == 1)
+	if (found)
 	{
 		return (&haystack[i]);
 	}
