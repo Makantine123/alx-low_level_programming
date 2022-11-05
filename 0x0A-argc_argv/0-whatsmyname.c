@@ -1,8 +1,9 @@
 #include <stdio.h>
-/**main - print program name
+/**
+ * main - print program name
  * Return: Void
  */
-int main(int argc, char* argv[])
+int main(int argc, char *argv[])
 {
 	if (argc > 0)
 	{
