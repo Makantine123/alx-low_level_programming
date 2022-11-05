@@ -2,6 +2,7 @@
 /**
  * main - Prints the number of arguments in cmd
  * @argc: Number of arguments
+ * @argv: Array of cmd arguments
  * Return: Always 0
  */
 int main(int argc, char *argv[] __attribute__((unused)))
