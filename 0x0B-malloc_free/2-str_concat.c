@@ -1,11 +1,10 @@
 #include "main.h"
 #include <stdlib.h>
 /**
- * _strdup - Function returns a pointer to a newly allocated space in memory,
- * which contains a copy of the string given as a parameter
+ * _str_concat - Function concatenates 2 strings
  * @s1: String 1
  * @s2: String 2
- * Return: NULL if string is null
+ * Return: Pointer to string
  */
 char *str_concat(char *s1, char *s2)
 {
