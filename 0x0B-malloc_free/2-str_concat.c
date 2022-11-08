@@ -44,5 +44,6 @@ char *str_concat(char *s1, char *s2)
 		i++;
 		k++;
 	}
+	*(dup + i) = '\0';
 	return (dup);
 }
