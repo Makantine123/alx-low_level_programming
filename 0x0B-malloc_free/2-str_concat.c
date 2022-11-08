@@ -30,7 +30,7 @@ char *str_concat(char *s1, char *s2)
 	{
 		len2++;
 	}
-	dup = malloc(sizeof(char) * ((len1 + 1) + (len2 + 1)));
+	dup = malloc(sizeof(char) * ((len1) + (len2)));
 	if (dup == NULL)
 	{
 		return (NULL);
