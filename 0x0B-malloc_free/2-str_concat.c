@@ -3,7 +3,8 @@
 /**
  * _strdup - Function returns a pointer to a newly allocated space in memory,
  * which contains a copy of the string given as a parameter
- * @str: String
+ * @s1: String 1
+ * @s2: String 2
  * Return: NULL if string is null
  */
 char *str_concat(char *s1, char *s2)
@@ -30,7 +31,7 @@ char *str_concat(char *s1, char *s2)
 	{
 		len2++;
 	}
-	dup = malloc(sizeof(char) * ((len1) + (len2)));
+	dup = malloc(sizeof(char) * (len1 + len2 + 1));
 	if (dup == NULL)
 	{
 		return (NULL);
