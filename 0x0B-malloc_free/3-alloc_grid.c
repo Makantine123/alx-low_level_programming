@@ -1,5 +1,6 @@
 #include "main.h"
 #include <stdlib.h>
+#include <stdio.h>
 /**
  * alloc_grid - Function returns a pointer to
  * a 2 dimensional array of intergers
@@ -10,12 +11,10 @@
 int **alloc_grid(int width, int height)
 {
 	int **arr;
-	int i, j;
+int i, j;
 
 	if (height <= 0 || width <= 0)
-	{
 		return (NULL);
-	}
 
 	arr = (int **) malloc(sizeof(int *) * height);
 
