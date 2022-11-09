@@ -1,7 +1,8 @@
 #include "main.h"
 #include <stdlib.h>
 /**
- * alloc_grid - Function returns a pointer to a 2 dimensional array of intergers
+ * alloc_grid - Function returns a pointer to
+ * a 2 dimensional array of intergers
  * @width: Width/Columns of array
  * @height: Height/Rows of array
  * Return: NULL if failure, NULL if width and height equal 0
