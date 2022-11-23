@@ -3,7 +3,7 @@
 /**
  * array_range - Function creates an array of integers
  * @min: Values starting
- * @mac: Values ending
+ * @max: Values ending
  * Return: Pointer to the newly created array
  */
 int *array_range(int min, int max)
@@ -31,7 +31,7 @@ int *array_range(int min, int max)
 	{
 		arrfinal[j] = j;
 	}
-	
+
 	return (arrfinal);
 }
 
