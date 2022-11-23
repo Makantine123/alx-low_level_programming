@@ -12,7 +12,7 @@ char *_memcpy(char *dest, char *src, unsigned int n)
 {
 	unsigned int i;
 
-	for (i =0; i < n; i++)
+	for (i = 0; i < n; i++)
 	{
 		dest[i] = src[i];
 	}
@@ -57,7 +57,7 @@ void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size)
 	{
 		return (NULL);
 	}
-	_memcpy(ptr2, ptr, old_size);
+	_memcpy(ptr2, ptr, new_size);
 	free(ptr);
 	return (ptr2);
 }
