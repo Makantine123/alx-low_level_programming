@@ -72,6 +72,8 @@ for (i = l2 - 1; i >= 0; i--)
 {
 ten = 0, ten2 = 0;
 for (j = l1 - 1; j >= 0; j--)
+{
+}
 }
 tl = i + j + 1;
 mul = (argv[1][j] - '0') * (argv[2][i] - '0') + ten;
