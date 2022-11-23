@@ -2,16 +2,19 @@
 #include <stdlib.h>
 /**
  * string_nconcat - Concatenates two strings
+ * Description: The prohram concatenates n bytes of s2 to s1
  * @s1: String 1
  * @s2: String 2
  * @n: Number of bytes of s2
+ * Return: Null if malloc fails,
+ * else pointer to address with concatenated string
  */
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
 	char *str;
 	unsigned int L1, L2, L3, i, k;
 
-	L1 = 0, L2 = 0;
+	L1 = 0, L2 = 0, i = 0, k = 0;
 
 	while (s1[L1])
 	{
@@ -33,14 +36,12 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	{
 		return (NULL);
 	}
-	i = 0;
 	while (i <= L1)
 	{
 		str[i] = s1[i];
 		i++;
 	}
-	k = 0;
-	while ( i < L3)
+	while (i < L3)
 	{
 		str[i] = s2[k];
 		i++;
