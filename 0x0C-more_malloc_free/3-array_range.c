@@ -30,6 +30,10 @@ int *array_range(int min, int max)
 	for (i = 0, j = min; j <= max; i++, j++)
 	{
 		arrfinal[i] = j;
+		if (max == min)
+		{
+			arrfinal[i] = max;
+		}
 	}
 
 	return (arrfinal);
