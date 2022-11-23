@@ -30,7 +30,7 @@ void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size)
 {
 	void *ptr2;
 
-	if (new_size == old_size)
+	if (old_size == new_size)
 	{
 		return (ptr);
 	}
