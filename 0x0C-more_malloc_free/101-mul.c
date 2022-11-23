@@ -89,9 +89,4 @@ printf("%c", res[zer]);
 printf("\n");
 free(res);
 return (0);
-}include "main.h"
-#include <stdio.h>
-#include <stdlib.h>
-/**
- *main - Function multiplies two positive numbers
- @
+}
