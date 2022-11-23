@@ -40,7 +40,7 @@ void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size)
 		ptr2 = malloc(new_size);
 		if (ptr2 == 0)
 		{
-			return (NULL);
+			return (0);
 		}
 		free(ptr);
 		return (ptr2);
@@ -49,19 +49,15 @@ void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size)
 	if (new_size == 0 && ptr != NULL)
 	{
 		free(ptr);
-		return (NULL);
+		return (0);
 	}
 
 	ptr2 = malloc(new_size);
 	if (ptr2 == 0)
 	{
-		return (NULL);
+		return (0);
 	}
 	_memcpy(ptr2, ptr, new_size);
 	free(ptr);
 	return (ptr2);
 }
-
-
-
-
