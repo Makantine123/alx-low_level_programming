@@ -57,7 +57,6 @@ return (p);
 int main(int argc, char **argv)
 {
 int i, j, l1, l2, lful, mul, add, ten, ten2, tl;
-int zer = 0;
 char *res;
 
 if (argc != 3 || _isnumber(argv[1]) == 0 || _isnumber(argv[2]) == 0)
