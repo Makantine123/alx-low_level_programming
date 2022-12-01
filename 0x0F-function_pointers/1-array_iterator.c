@@ -1,8 +1,8 @@
 #include "function_pointers.h"
 /**
  * array_iterator - Executes a function given as parameter on each element
- * @:array: Array
- * @size: Size 
+ * @array: Array
+ * @size: Size
  * @action:Pointer to function
  * Return:Nothing
  */
