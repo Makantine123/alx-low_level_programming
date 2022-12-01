@@ -5,6 +5,6 @@
  */
 int main(void)
 {
-	fprint("%s\n", _FILE_);
+	fprintf("%s\n", _FILE_);
 	return (0);
 }
