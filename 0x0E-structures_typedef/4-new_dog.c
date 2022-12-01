@@ -23,6 +23,7 @@ int _stringlen(char *s)
  * @name: Dog name
  * @age: Dog age
  * @owner: Dog owner
+ * Return: New dog struct
  */
 dog_t *new_dog(char *name, float age, char *owner)
 {
@@ -39,16 +40,16 @@ dog_t *new_dog(char *name, float age, char *owner)
 	dog->name = malloc(sizeof(char) * (l1 + 1));
 	if (dog->name == NULL)
 	{
-		free (dog);
-		free (dog->name);
+		free(dog);
+		free(dog->name);
 		return (NULL);
 	}
 	l2 = _stringlen(owner);
 	dog->owner = malloc(sizeof(char) * (l2 + 1));
 	if (dog->owner == NULL)
 	{
-		free (dog);
-		free (dog->owner);
+		free(dog);
+		free(dog->owner);
 		return (NULL);
 	}
 
