@@ -1,7 +1,7 @@
 #include <stddef.h>
 #include "3-calc.h"
 /**
- * get_op_func - Function selects the 
+ * get_op_func - Function selects the
  * currect to perform operation asked by the user
  * @s: Operator symbol: +, -, /, *, %, NULL
  * Return: NULL if no match, Otherwise function
