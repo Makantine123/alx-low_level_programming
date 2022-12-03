@@ -11,7 +11,7 @@ void print_strings(const char *separator, const unsigned int n, ...)
         unsigned int i;
 
 
-        for (i = 1; i < n; i++)
+        for (i = 1; i <= n; i++)
         {
 		if ((va_arg(par, char *)) == NULL)
 		{
