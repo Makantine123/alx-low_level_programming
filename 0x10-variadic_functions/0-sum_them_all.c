@@ -1,6 +1,7 @@
 #include "variadic_functions.h"
-/*
- * sum_them_all - Sums all of its parameters
+
+/**
+ * sum_them_all - This function computes a sum
  * @n: Parameters
  *
  * Return: Sum of the parameters, 0 if n == 0
