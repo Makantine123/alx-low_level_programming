@@ -2,7 +2,6 @@
 /**
  * print_all - Functions that prints anything
  * @format: List of types of arguments passed to the function
- * Description: If the string is NULL, print (nil), else print
  * Return: Nothing
  */
 void print_all(const char * const format, ...)
@@ -12,7 +11,6 @@ void print_all(const char * const format, ...)
 	char *str;
 
 	i = 0;
-
 	if (format)
 	{
 		va_start(par, format);
@@ -45,10 +43,7 @@ void print_all(const char * const format, ...)
 			if (format[i + 1] != '\0')
 			{
 				printf(", ");
-			}
-			i++;
-		}
-		va_end(par);
-	}
-	printf("\n");
+			} i++;
+		} va_end(par);
+	} printf("\n");
 }
