@@ -6,20 +6,25 @@
  */
 void print_binary(unsigned long int n)
 {
-	int binaryNum[32];
 	int i, k;
 
 	i = 0;
 
-	while (n > 0)
+	for (i = 31; i >= 0; i--)
 	{
-		binaryNum[i] = n % 2;
-		n = n / 2;
-		i++;
+		k = n >> i;
+
+		if (k != '\0')
+		{
+		if (k & 1)
+		{
+			_putchar('1');
+		}
+		else
+		{
+			_putchar('0');
+		}
+		}
 	}
 
-	for (k = i -1; k >= 0; k--)
-	{
-		_putchar(binaryNum[k] + '0');
-	}
 }
