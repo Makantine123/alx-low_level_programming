@@ -10,6 +10,11 @@ void print_binary(unsigned long int n)
 
 	i = 0;
 
+	if (n == 0)
+	{
+		_putchar('0');
+	}
+
 	for (i = 63; i >= 0; i--)
 	{
 		k = n >> i;
