@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * set_bit - Function sets the value of a bit to 1 at a given index
- * @n; Binary number
+ * @n: Binary number
  * @index: Index
  * Return: 1 if success, -1 if error
  */
