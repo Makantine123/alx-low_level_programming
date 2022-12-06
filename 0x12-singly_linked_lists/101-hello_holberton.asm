@@ -1,16 +1,19 @@
-section .text
-	global _start
+    section .data
+hello:	db "Hello, Holberton",10,0
+format:	db "%s",0
 
-_start:
-	mov edx, len
-	mov ecx, msg
-	mov ebx, 1
-	mov eax, 4	;system call (sys_write)
-	int 0x80	;to call kernel
+    section .text
+    global main
+    extern printf
 
-	mov eax, 1	;system call (sys_exit)
-	int 0x080
+main:
+    push rbp
+    mov rbp, rsp
 
-section .data
-	msg db "Hello, Holberton",0xa ;also 10, new line
-	len equ $ -msg
+    mov rsi, hello
+    mov rdi, format
+    call printf
+
+    pop rbp
+    mov rax, 0
+    ret
