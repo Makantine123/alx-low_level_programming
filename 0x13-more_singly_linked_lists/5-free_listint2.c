@@ -2,7 +2,7 @@
 
 /**
  * free_listint2 - Function that frees a list, sets head to NULL
- * @head: Pointer to pointer list head 
+ * @head: Pointer to pointer list head
  * Return: Nothing
  */
 
