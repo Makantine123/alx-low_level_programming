@@ -3,7 +3,7 @@
  * add_dnodeint_end - Function adds a new node at the end of a dlist
  * @head: dlistint_t head
  * @n: data
- * Return - The address of the new element or null
+ * Return: The address of the new element or null
  */
 dlistint_t *add_dnodeint_end(dlistint_t **head, const int n)
 {
