@@ -15,7 +15,7 @@ while (current != NULL)
 {
 if (count == index)
 {
-return ((*current)->n);
+return (current);
 }
 count++;
 curent = current->next;
