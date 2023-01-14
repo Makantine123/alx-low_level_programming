@@ -14,7 +14,7 @@ while (head != NULL)
 {
 if (count == index)
 {
-return (head->n);
+return ((*head)->n);
 }
 }
 return (NULL);
