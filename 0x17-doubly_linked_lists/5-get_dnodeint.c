@@ -18,7 +18,7 @@ if (count == index)
 return (current);
 }
 count++;
-curent = current->next;
+current = current->next;
 }
 return (NULL);
 }
