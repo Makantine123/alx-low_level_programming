@@ -1,0 +1,13 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+[remote "origin"]
+	url = https://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@github.com/Makantine123/alx-low_level_programming.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "main"]
+	remote = origin
+	merge = refs/heads/main
+[pull]
+	rebase = false
