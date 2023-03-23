@@ -3,30 +3,26 @@
 Module contains Island Perimeter Function
 """
 
+
 def island_perimeter(grid):
     """
     Function returns perimeter of the island described in a grid
     """
     perim = 0
-    i = 0
-    j = 0
     if grid == []:
         return
     else:
-        row = len(grid)
-        col = len(grid[0])
-        for i in range(row):
-            for j in range(col):
-                if grid[i][j] == 0:
-                    continue
-                else:
-                    if grid[i - 1][j] == 0:
+        for x in range(1, len(grid) - 1):
+            for y in range(1, len(grid[x]) - 1):
+                if grid[x][y] == 1:
+                    if grid[x - 1][y] == 0:
                         perim = perim + 1
-                    if grid[i + 1][j] == 0:
+                    if grid[x + 1][y] == 0:
                         perim = perim + 1
-                    if grid[i][j - 1] == 0:
+                    if grid[x][y - 1] == 0:
                         perim = perim + 1
-                    if grid[i][j + 1] == 0:
+                    if grid[x][y + 1] == 0:
                         perim = perim + 1
+                    print(perim)
 
-        return perim
+    return perim
