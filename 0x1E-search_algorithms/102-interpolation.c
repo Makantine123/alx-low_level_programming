@@ -1,5 +1,6 @@
 #include "search_algos.h"
 #include <stddef.h>
+#include <stdio.h>
 /**
  * interpolation_search - Function searches for a value in a sorted
  * array of intergers using interpolation search algorithm
@@ -22,6 +23,7 @@ int interpolation_search(int *array, size_t size, int value)
 	while (start <= end && value >= array[start] && value <= array[end])
 	{
 		pos = start + ((value - array[start]) * (end - start)) / (array[end] - array[start]);
+		printf("Value checked array[%ld] = [%d]", pos, array[pos]);
 		if (array[pos] == value)
 		{
 			return pos;
