@@ -1,4 +1,6 @@
 #include "search_algos.h"
+#include <stddef.h>
+#include <stdio.h>
 /**
  * binary_search - Function seaches for a value using Binary Search
  * @array: Pointer to array of elements
@@ -8,7 +10,7 @@
 */
 int binary_search(int *array, size_t size, int value)
 {
-	unsigned int low, high, mid;
+	size_t low, high, mid, i;
 
 	low = 0;
 	high = size - 1;
@@ -20,6 +22,17 @@ int binary_search(int *array, size_t size, int value)
 
 	while (low < high)
 	{
+		printf("Searching in array: ");
+		for (i = low; i <= high; i++)
+		{
+			printf("%d", array[i]);
+			if (i != high)
+			{
+				printf(", ");
+			}
+		}
+		printf("\n");
+
 		mid  = (low + high) / 2;
 		if (array[mid] == value)
 		{
