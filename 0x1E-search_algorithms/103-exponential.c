@@ -1,17 +1,16 @@
 #include "search_algos.h"
 /**
  * exponential_search - Searches for a value in a sorted array of integers
- *                      using the Exponential search algorithm
+ * using the Exponential search algorithm
  * @array: A pointer to the first element of the array to search in
  * @size: The number of elements in the array
  * @value: The value to search for
- *
  * Return: The first index where value is located, or -1 if not found
  */
 int exponential_search(int *array, size_t size, int value)
 {
 	int bound = 1;
-	int low, high;
+	int low, high, i;
 
 	if (array == NULL || size == 0)
 		return (-1);
@@ -30,7 +29,7 @@ int exponential_search(int *array, size_t size, int value)
 		int mid = (low + high) / 2;
 
 		printf("Searching in array: ");
-		for (int i = low; i <= high; i++)
+		for (i = low; i <= high; i++)
 		{
 			printf("%d", array[i]);
 			if (i < high)
